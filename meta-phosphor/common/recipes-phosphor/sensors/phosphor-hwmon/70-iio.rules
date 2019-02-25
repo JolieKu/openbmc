@@ -1,1 +1,0 @@
-SUBSYSTEM=="iio", ACTION=="add", TAG+="systemd", ENV{SYSTEMD_WANTS}+="xyz.openbmc_project.Hwmon@%E{OF_FULLNAME}.service"
